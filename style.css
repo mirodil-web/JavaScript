@@ -79,8 +79,8 @@ span{
 .hero{
     padding-top: 57px;
     padding-bottom: 57px;
-   padding-left: 30px;
-   padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: rgb(46, 63, 77);
     border-radius: 7px;
 }
@@ -105,12 +105,13 @@ span{
     border-radius: 100%;
 }
 .hero-title{
-
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 20px;
     color: rgb(8, 161, 161);
 }
 .poragraf{
+    color: rgb(4, 130, 240);
     font-family: sans-serif;
 }
 .lilist{
@@ -126,10 +127,11 @@ span{
     transition: all 0.5s ease;
 }
 .href:hover{
-    background-color: aquamarine;
+    background-color: rgb(5, 85, 117);
     border-radius: 5px;
-    padding: 10px;
-    color: black;
+    padding: 7px;
+    color: rgb(246, 248, 250);
+    
 }
 .ul{
     display: flex;
