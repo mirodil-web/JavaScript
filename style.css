@@ -1,0 +1,117 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.button{
+    background-color: rgb(8, 128, 165);
+    color: aliceblue;
+    padding: 10px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    display: none;
+    transition:  1s ease;
+    
+}
+body{
+    height: 4000px;
+    background-image: url(./img/stock-photo.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+}
+.header{
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    opacity: 0.9;
+    padding: 20px 0px 20px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(14, 13, 13);
+    box-shadow: 0px 0px 20px black;
+}
+.container{
+    max-width: 1240px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bir{
+    text-shadow: 1px 1px 1px gold;
+    color: rgb(1, 66, 92);
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed ;
+    width: 100%;
+    bottom: 0;
+    color: aliceblue;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    background-color: rgb(2, 43, 41);
+}
+span{
+    color: gold;
+}
+
+.shadow-fight-2{
+    transition: box-shadow 1s ease;
+    box-shadow: 0px 0px 10px rgb(110, 109, 109);
+}
+
+.hero{
+    padding-top: 57px;
+    padding-bottom: 57px;
+   padding-left: 30px;
+   padding-right: 30px;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+.header-link{
+    align-items: center;
+    color: aliceblue;
+    padding: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+    background-color: rgb(8, 184, 190);
+    display: flex;
+}
+.header-img{
+    margin-right: 10px;
+    border: 3px dotted rgb(5, 5, 5);
+    padding: 8px;
+    border-radius: 100%;
+}
+.hero-title{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    color: rgb(8, 161, 161);
+}
+.poragraf{
+    font-family: sans-serif;
+}
+.lilist{
+    list-style: none;
+}
+.href{
+    text-decoration: none;
+    color: aquamarine;
+}
+.ul{
+    display: flex;
+    
+}
