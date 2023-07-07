@@ -2,7 +2,7 @@ const elBtn = document.querySelector('.button')
 const elHeader = document.querySelector('header')
 
 window.addEventListener('scroll', function(){
-if(this.window.scrollY > 300){
+if(this.window.scrollY > 50){
    elBtn.style.display = 'block'
     elHeader.classList.add('shadow-fight-2')
 }
